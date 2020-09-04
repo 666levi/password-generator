@@ -19,7 +19,7 @@ while True:
             createPW(length)
             break
         else:
-            print('The password is too long! Maximum 3000 characters.\nNWrite "unlimit" to remove the limit.')
+            print('The password is too long! Maximum 3000 characters.\nWrite "unlimit" to remove the limit.')
     elif length == 'unlimit':
         try:
             unlimLength = int(input('Enter password length (limit removed!): '))
